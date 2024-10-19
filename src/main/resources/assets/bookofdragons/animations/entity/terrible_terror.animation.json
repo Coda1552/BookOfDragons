@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.terrible_terror.fly_idle": {
+		"fly_idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -85,7 +85,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.fly": {
+		"fly": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -169,7 +169,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.idle": {
+		"idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -230,7 +230,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.walk": {
+		"walk": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -381,7 +381,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.sit": {
+		"sit": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -482,7 +482,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.fire": {
+		"fire": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -768,7 +768,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.threaten": {
+		"special_attack": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -887,7 +887,7 @@
 				}
 			}
 		},
-		"animation.terrible_terror.bite": {
+		"bite": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {

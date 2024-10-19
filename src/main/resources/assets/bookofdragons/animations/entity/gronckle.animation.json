@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.gronckle.fly": {
+		"fly": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -81,7 +81,7 @@
 				}
 			}
 		},
-		"animation.gronckle.fly_idle": {
+		"fly_idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -164,7 +164,7 @@
 				}
 			}
 		},
-		"animation.gronckle.idle": {
+		"idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -244,7 +244,7 @@
 				}
 			}
 		},
-		"animation.gronckle.walk": {
+		"walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -347,26 +347,22 @@
 					},
 					"position": {
 						"0.0": {
-							"vector": [0, -0.5, -0.75],
-							"easing": "easeInBack"
+							"vector": [0, -0.5, -0.75]
 						},
 						"0.44": {
-							"vector": [0, 0, -0.25],
-							"easing": "easeInCirc"
+							"vector": [0, 0, -0.25]
 						},
 						"0.84": {
 							"vector": [0, 0, 0.75]
 						},
 						"1.2": {
-							"vector": [0, 1.25, 0],
-							"easing": "easeInCirc"
+							"vector": [0, 1.25, 0]
 						},
 						"1.6": {
 							"vector": [0, 2, 0]
 						},
 						"2.0": {
-							"vector": [0, -0.5, -0.75],
-							"easing": "easeInCirc"
+							"vector": [0, -0.5, -0.75]
 						}
 					}
 				},
@@ -379,15 +375,13 @@
 							"vector": [0, 0, 0.75]
 						},
 						"0.44": {
-							"vector": [0, 1.25, 0],
-							"easing": "linear"
+							"vector": [0, 1.25, 0]
 						},
 						"0.84": {
 							"vector": [0, 2, 0]
 						},
 						"1.2": {
-							"vector": [0, -0.5, -0.75],
-							"easing": "easeInBack"
+							"vector": [0, -0.5, -0.75]
 						},
 						"1.6": {
 							"vector": [0, 0, -0.25]
@@ -406,15 +400,13 @@
 							"vector": [0, 0, 0.75]
 						},
 						"0.44": {
-							"vector": [0, 1.25, 0],
-							"easing": "linear"
+							"vector": [0, 1.25, 0]
 						},
 						"0.84": {
 							"vector": [0, 2, 0]
 						},
 						"1.2": {
-							"vector": [0, -0.5, -0.75],
-							"easing": "easeInBack"
+							"vector": [0, -0.5, -0.75]
 						},
 						"1.6": {
 							"vector": [0, 0, -0.25]
@@ -430,8 +422,7 @@
 					},
 					"position": {
 						"0.0": {
-							"vector": [0, -0.5, -0.75],
-							"easing": "easeInBack"
+							"vector": [0, -0.5, -0.75]
 						},
 						"0.44": {
 							"vector": [0, 0, -0.25]
@@ -440,22 +431,19 @@
 							"vector": [0, 0, 0.75]
 						},
 						"1.2": {
-							"vector": [0, 1.25, 0],
-							"easing": "linear"
+							"vector": [0, 1.25, 0]
 						},
 						"1.6": {
 							"vector": [0, 2, 0]
 						},
 						"2.0": {
-							"vector": [0, -0.5, -0.75],
-							"easing": "easeInBack",
-							"easingArgs": [1]
+							"vector": [0, -0.5, -0.75]
 						}
 					}
 				}
 			}
 		},
-		"animation.gronckle.sit": {
+		"sit": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -540,7 +528,7 @@
 				}
 			}
 		},
-		"animation.gronckle.sleep": {
+		"sleep": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -635,7 +623,7 @@
 				}
 			}
 		},
-		"animation.gronckle.eat": {
+		"eat": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -674,16 +662,13 @@
 							"vector": [42.5, 0, 0]
 						},
 						"0.64": {
-							"vector": ["-5 + Math.sin(query.anim_time * 360) * 4", "Math.cos(query.anim_time * 360) * 4", 0],
-							"easing": "easeOutBack"
+							"vector": ["-5 + Math.sin(query.anim_time * 360) * 4", "Math.cos(query.anim_time * 360) * 4", 0]
 						},
 						"0.84": {
-							"vector": ["Math.sin(query.anim_time * 360) * 4", "Math.cos(query.anim_time * 360) * 4", 0],
-							"easing": "easeOutBack"
+							"vector": ["Math.sin(query.anim_time * 360) * 4", "Math.cos(query.anim_time * 360) * 4", 0]
 						},
 						"1.8": {
-							"vector": ["Math.sin(query.anim_time * 360) * 4", "Math.cos(query.anim_time * 360) * 4", 0],
-							"easing": "easeOutBack"
+							"vector": ["Math.sin(query.anim_time * 360) * 4", "Math.cos(query.anim_time * 360) * 4", 0]
 						},
 						"2.0": {
 							"vector": [2, -0.68, 0]
@@ -692,7 +677,7 @@
 				}
 			}
 		},
-		"animation.gronckle.bite": {
+		"bite": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -708,8 +693,7 @@
 							"vector": [-27.5, 0, 0]
 						},
 						"1.0": {
-							"vector": [10, 0, 0],
-							"easing": "easeOutBack"
+							"vector": [10, 0, 0]
 						}
 					}
 				},
@@ -735,9 +719,7 @@
 							"vector": [65, 0, 0]
 						},
 						"1.0": {
-							"vector": [0, 0, 0],
-							"easing": "easeOutBack",
-							"easingArgs": [2]
+							"vector": [0, 0, 0]
 						}
 					}
 				}

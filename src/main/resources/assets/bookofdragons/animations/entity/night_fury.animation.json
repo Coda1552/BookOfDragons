@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.night_fury.fly": {
+		"fly": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -226,7 +226,7 @@
 				}
 			}
 		},
-		"animation.night_fury.glide": {
+		"glide": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -425,7 +425,7 @@
 				}
 			}
 		},
-		"animation.night_fury.fly_idle": {
+		"fly_idle": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -653,7 +653,7 @@
 				}
 			}
 		},
-		"animation.night_fury.idle": {
+		"idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -838,7 +838,7 @@
 				}
 			}
 		},
-		"animation.night_fury.walk": {
+		"walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -1148,7 +1148,7 @@
 				}
 			}
 		},
-		"animation.night_fury.sit": {
+		"sit": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -1336,7 +1336,7 @@
 				}
 			}
 		},
-		"animation.night_fury.sittilt": {
+		"sittilt": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -1676,7 +1676,7 @@
 				}
 			}
 		},
-		"animation.night_fury.sleep": {
+		"sleep": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -1856,7 +1856,7 @@
 				}
 			}
 		},
-		"animation.night_fury.playful": {
+		"playful": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -2045,7 +2045,7 @@
 				}
 			}
 		},
-		"animation.night_fury.laugh": {
+		"laugh": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -2118,7 +2118,7 @@
 				}
 			}
 		},
-		"animation.night_fury.head_tilt": {
+		"head_tilt": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -2294,7 +2294,7 @@
 				}
 			}
 		},
-		"animation.night_fury.bite": {
+		"bite": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -2421,7 +2421,7 @@
 				}
 			}
 		},
-		"animation.night_fury.spike_open": {
+		"spike_open": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
