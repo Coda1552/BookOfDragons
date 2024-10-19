@@ -3,6 +3,7 @@ package coolrex.bookofdragons.client.geo;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.math.Axis;
+import coolrex.bookofdragons.client.layers.PassengerLayer;
 import coolrex.bookofdragons.common.entities.misc.base.BaseDragonEntity;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
@@ -51,7 +52,7 @@ public class GenericGeoRenderer<T extends LivingEntity & GeoEntity> extends GeoE
 		}
 
 		if (entity instanceof BaseDragonEntity dragon) {
-			stack.mulPose(Axis.ZP.rotationDegrees(Mth.lerp(partialTicks, dragon.prevTilt, dragon.tilt)));
+			stack.mulPose(Axis.ZN.rotationDegrees(Mth.lerp(partialTicks, dragon.prevTilt, dragon.tilt)));
 		}
 
 		super.render(entity, entityYaw, partialTicks, stack, bufferIn, packedLightIn);

@@ -2,11 +2,10 @@ package coolrex.bookofdragons.client.geo;
 
 import coolrex.bookofdragons.BookOfDragons;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.LivingEntity;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.model.GeoModel;
 
-public class GenericGeoModel<E extends LivingEntity & GeoEntity> extends GeoModel<E> {
+public class GenericGeoModel<E extends GeoEntity> extends GeoModel<E> {
     private final String model;
     private final String texture;
     private final String anim;

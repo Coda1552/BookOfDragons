@@ -35,10 +35,11 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.ForgeEventFactory;
+import software.bernie.geckolib.animatable.GeoEntity;
 
 import java.util.UUID;
 
-public abstract class BaseDragonEntity extends AbstractHorse {
+public abstract class BaseDragonEntity extends AbstractHorse implements GeoEntity {
     private static final EntityDataAccessor<Boolean> IS_FLYING = SynchedEntityData.defineId(BaseDragonEntity.class, EntityDataSerializers.BOOLEAN);
     private static final EntityDataAccessor<Boolean> IS_LANDING = SynchedEntityData.defineId(BaseDragonEntity.class, EntityDataSerializers.BOOLEAN);
     private static final EntityDataAccessor<Boolean> HAS_ARMOR = SynchedEntityData.defineId(BaseDragonEntity.class, EntityDataSerializers.BOOLEAN);
@@ -138,6 +139,9 @@ public abstract class BaseDragonEntity extends AbstractHorse {
         return pPassenger instanceof Player;
     }
 
+    @Override
+    protected void playStepSound(BlockPos p_30584_, BlockState p_30585_) {
+    }
 
     public boolean wantsToFly() {
         return /*canFly() &&*/ getFlightTicks() <= MAX_FLIGHT_TICKS;
