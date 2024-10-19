@@ -34,12 +34,17 @@ public class PassengerLayer<T extends BaseDragonEntity> extends GeoRenderLayer<T
                 float bodyYaw = entity.yBodyRotO + (entity.yBodyRot - entity.yBodyRotO) * partialTicks;
 
                 BookOfDragons.PROXY.releaseRenderingEntity(passenger.getUUID());
+
                 poseStack.pushPose();
+
                 poseStack.translate(0.0D, passenger.getBbHeight() - 0.65F, 0.65F);
                 poseStack.mulPose(Axis.YP.rotationDegrees(180F));
                 poseStack.mulPose(Axis.YN.rotationDegrees(360F - bodyYaw));
+                poseStack.translate(bone.getRotX(), bone.getRotY(), bone.getRotZ());
+
                 renderPassenger(passenger, 0, partialTicks, poseStack, bufferSource, pPackedLight);
                 poseStack.popPose();
+
                 BookOfDragons.PROXY.blockRenderingEntity(passenger.getUUID());
             }
         }
